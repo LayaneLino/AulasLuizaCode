@@ -2,7 +2,7 @@ var nome = "Fulana";
 console.log(nome + " é maravilhosa!");
 console.log(`${nome} é maravilhosa!`)
 
-// Operadores aritméticos------------------------------------------------------------------------------------------
+// Operadores aritméticos---------------------------------------------------------------------------------------------
 var soma = 10 + 5;
     sub = 10 - 5;
     div = 10 / 5;
@@ -26,7 +26,7 @@ var altura = 1.65;
 var imc = peso / (altura**2); // ou Math.pow(nomeDaVar, expoente)
 console.log(`IMC de ${imc.toFixed(2)}`); //.toFixed(x) serve para escolher quantas casas decimais.
 
-//Operadores unários e ordem de procedência-----------------------------------------------------------------------
+//Operadores unários e ordem de procedência---------------------------------------------------------------------------
 var first_number = 10;
     second_number = 20;
     third_number = 30
@@ -86,4 +86,9 @@ var idade = 20;
 var verificador = (idade >= 16 && idade <= 18) || (idade > 60) ? 'meia entrada' : 'inteira';
 console.log(`Você vai pagar ${verificador}.`);
 
+// Bônus tabuada-----------------------------------------------------------------------------------------------------
+var tabuada = 5
 
+for (var i = 0; i <= 10; i++) {
+    console.log(tabuada + " x " + i + " = " + (tabuada * i));
+}
