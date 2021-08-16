@@ -85,10 +85,3 @@ var idade = 20;
 
 var verificador = (idade >= 16 && idade <= 18) || (idade > 60) ? 'meia entrada' : 'inteira';
 console.log(`Você vai pagar ${verificador}.`);
-
-// Bônus tabuada-----------------------------------------------------------------------------------------------------
-var tabuada = 5
-
-for (var i = 0; i <= 10; i++) {
-    console.log(tabuada + " x " + i + " = " + (tabuada * i));
-}
