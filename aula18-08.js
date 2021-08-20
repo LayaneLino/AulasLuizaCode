@@ -165,6 +165,20 @@ for ( var k = 1; k <= 10; k++) {
     }    
 }  
 
+for (var indice1 = 10; indice1 > 0; indice1--) {
+    console.log(indice1)
+    if (indice1 == 5) {
+        break
+    }
+}
+
+for (var indice2 = 10; indice2 > 0; indice2--) {
+    console.log(indice2)
+    if (indice2 == 5) {
+        continue
+    }
+}
+
 
 // While---------------------------------------------------------------------------------------------------
 
