@@ -1,4 +1,4 @@
-// Modificando arays
+// Modificando arays----------------------------------------------------------------------------------------------------------------------
 const lista = ['Maria', 'João', 'José', 'Ana', 'Fulana']
 
 function listagem(lista) {
@@ -19,7 +19,7 @@ console.log('Lista modificada:')
 listagem(lista);
 
 
-// Invertendo uma array sem o .reverse
+// Invertendo uma array sem o .reverse-----------------------------------------------------------------------------------------------------
 let listaNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
 console.log(listaNum)
 
@@ -35,7 +35,7 @@ for (i = 0; i < listaNum.length / 2; i++) {
 console.log(listaNum)
 
 
-// Pedra, papel e tesoura
+// Pedra, papel e tesoura-----------------------------------------------------------------------------------------------------------------
 let player1 = 'papel'
 let player2 = 'papel'
 
@@ -58,7 +58,7 @@ function jokenpo(player1, player2) {
 jokenpo(player1, player2)
 
 
-// Milésimo número primo
+// Milésimo número primo--------------------------------------------------------------------------------------------------------------------
 let primosEncontrados = 0
 let dividendo
 let ePrimo
@@ -78,7 +78,7 @@ for (dividendo = 2; primosEncontrados < 1001; dividendo++) {
 console.log(`O 1001° número primo é ${--dividendo}.`)
 
 
-// Posto de gasolina
+// Posto de gasolina-----------------------------------------------------------------------------------------------------------------------
 class Bomba {
     //atributos
     constructor(valorGasolina, capacidadeBomba) {
@@ -124,7 +124,7 @@ bomba1.encherBomba()
 bomba1.ajustarValor(0)
 
 
-// Reajuste de salário----------------------------------------------------------------------------------------------
+// Reajuste de salário----------------------------------------------------------------------------------------------------------------------
 function reajusteSalarial(salario){
     let porcentagem
 
@@ -159,7 +159,7 @@ reajusteSalarial(1500)
 reajusteSalarial(2000)
 
 
-// Escrever data por extenso---------------------------------------------------------------------------------------
+// Escrever data por extenso----------------------------------------------------------------------------------------------------------------
 function conversor(data) {
     dia = data.substring(0,2)
     mes = parseInt(data.substr(3, 5))
