@@ -26,7 +26,6 @@ var numeroSub = 20
 console.log(`O resultado da subtração é ${subtrair(numeroSub)}.`)
 
 
-
 // Variáveis var, let e const---------------------------------------------------------------------------------------------------------
 var comVar = function() {
     msg = 'Variável com var'
