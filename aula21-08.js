@@ -131,10 +131,10 @@ function reajusteSalarial(salario){
     if (salario <= 280) {
     porcentagem = 0.2
 
-    } else if (salario > 280 && salario <= 700) {
+    } else if (salario <= 700) {
     porcentagem = 0.15
     
-    } else if (salario > 700 && salario <= 1500) {
+    } else if (salario <= 1500) {
     porcentagem = 0.10
     
     } else {
@@ -234,7 +234,6 @@ console.log(dataNovoFormato)
 dataInserida = '16/06/2003';
 
 const myArr = dataInserida.split("/");
-console.log(myArr);
 
 dia = myArr[0];
 ano = myArr[2];
@@ -296,3 +295,24 @@ switch(myArr[1]){
 
 console.log(`${dia} de ${mess} de ${ano}.`);
 
+// ou
+function convertDate (data) {
+    let meses = [
+        'janeiro',
+        'fevereiro',
+        'março',
+        'abril',
+        'maio',
+        'junho',
+        'julho',
+        'agosto',
+        'setembro',
+        'outubro',
+        'novembro',
+        'dezembro'
+    ]
+    let dataList = data.split('/')
+    console.log(`${dataList[0]} de ${meses[parseInt (dataList[1]) - 1]} de ${dataList[2]}.`)
+}
+
+convertDate('12/10/2019')
