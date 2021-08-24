@@ -4,7 +4,7 @@
 class Livro {
     constructor(nome, editora, paginas) {
         this.nome = nome,
-        this.editora = editora,
+        this.editora = editora, // this, faz referência ao objeto que está chamando a função no momento
         this.paginas = paginas
     }
     anunciar(){
