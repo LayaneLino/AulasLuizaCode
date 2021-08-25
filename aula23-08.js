@@ -99,7 +99,7 @@ module.exports = dividir
 
 const rLine = require('readline-sync')
 
-const chamandoSoma = require('./soma')
+const chamandoSoma = require('./soma') // --> nome da pasta
 const chamandoSub = require('./sub')
 const chamandoMult = require('./mult')
 const chamandoDiv = require('./div')
