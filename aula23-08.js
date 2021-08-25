@@ -69,8 +69,8 @@ let resultado = converter(temp)
 console.log(`${temp}° Celsius corresponde a ${resultado.toFixed(2)}° Fahrenheit.`)
 
 
-// Menu matemático------------------------------------------------------------------------------------------
-
+// Calculadora----------------------------------------------------------------------------------------------
+                    //https://github.com/LayaneLino/Calculadora
 /*
 var somar = function (numA, numB) {   --> Cada uma dessas 4 linhas de código vão em um arquivo diferente
     return numA + numB
