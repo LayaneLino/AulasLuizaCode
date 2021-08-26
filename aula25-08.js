@@ -117,3 +117,6 @@ pegarId().then((id) => {
     })
 })
 // podem ser adicionados outros catch's caso as outras promises são sejam cumpridas.
+
+// essa linha não respeita as outras acontecerem, para isso, é necessário usar o async
+console.log('Encerrando a caixa de email.')
