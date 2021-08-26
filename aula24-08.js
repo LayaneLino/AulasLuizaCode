@@ -1,6 +1,6 @@
 // Expressões regulares (RegExp)--------------------------------------------------------------------------------
 
-var regex = new RegExp('aula');
+var regex = new RegExp('aula'); // criar um objeto passando termoQueQueroEncontrar
 //ou
 var outroRegex = /aula/
 console.log(outroRegex.test("aula está maravilinda."))
@@ -81,7 +81,7 @@ console.log(question.test('abdo'))
 console.log(question.test('gatsgo'))
 
 
-const precisao = /\d{5}-\d{3}/ // especifica a estrutura que deve ser escrita
+const precisao = /\d{5}-\d{3}/ // a chave especifica a estrutura que deve ser escrita
 console.log(precisao.test('12345-123'))
 console.log(precisao.test('12345123'))
 
