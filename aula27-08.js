@@ -67,14 +67,15 @@ modificarUsuario("Fulano", 28, "Software Engineer")
 
 // Conceitos express API-------------------------------------------------------------------------------------------------------------
 //Protocolo HTTP: Define um conjunto de métodos de requisição que indicam a ação a ser executada.
+// API: Software que permite uma coisa comunicar com outra, como front se comunicar com um banco de dados
 // app.get: Solicitar algo.
 
 // app.head: Solicita uma resposta igual o get, mas sem conter o corpo da resposta.
 // app.listen: Inicia um server que escuta conexões.
 // app.post: Create, utilizado para criar algo novo.
-// app.put: Update, modifica/altera instâncias, como atualizar uma informação.
-// app.patch: Usado para modificações, aplica modificações parciais, ao contrário do put que só aceita modificações completas.
-// No patch, requisições sucessivas idênticas podem obter efeitos distintos, então o put acaba sendo mais usado para evitar erros.
+// app.put: Update, modifica/altera instâncias, como atualizar uma informação, mas congela toda a instância.
+// app.patch: Usado para modificações, aplica modificações parciais, não congela a instância então pode dar conflito.
+// O patch permite outra pessoa modificar ao mesmo tempo, então o put acaba sendo mais usado para evitar erros.
 // app.delete: Remove um recurso específico por completo.
 
 // Require é o objeto de solicitação. Request representa o objeto de resposta http que é enviada quando recebe um request http.
